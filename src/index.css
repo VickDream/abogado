@@ -1,0 +1,17 @@
+body::before {
+  width: 400px;
+  height: 400px;
+  background: #b8860b;
+  /* mancha dorada */
+  top: -100px;
+  left: -100px;
+}
+
+body::after {
+  width: 500px;
+  height: 500px;
+  background: #1e40af;
+  /* mancha azul */
+  bottom: -150px;
+  right: -150px;
+}

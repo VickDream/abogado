@@ -1,0 +1,31 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding-top: 20px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.social-link {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #334155;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: #0f172a;
+  color: #d4af37;
+  transform: translateY(-3px) rotate(6deg);
+}
+
+.social-link svg {
+  width: 18px;
+  height: 18px;
+}

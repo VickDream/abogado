@@ -1,0 +1,25 @@
+.specialties {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tag {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  background: #0f172a;
+  color: #d4af37;
+  border-color: #0f172a;
+  transform: translateY(-2px);
+}
