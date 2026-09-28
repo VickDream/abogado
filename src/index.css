@@ -1,17 +1,12 @@
-body::before {
-  width: 400px;
-  height: 400px;
-  background: #b8860b;
-  /* mancha dorada */
-  top: -100px;
-  left: -100px;
-}
-
-body::after {
-  width: 500px;
-  height: 500px;
-  background: #1e40af;
-  /* mancha azul */
-  bottom: -150px;
-  right: -150px;
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  position: relative;
+  overflow: hidden;
+  /* 👈 el body NO scrollea */
 }
